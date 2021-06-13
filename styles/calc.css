@@ -47,6 +47,7 @@ h1{
     border: none;
     margin: .5rem;
     cursor: pointer;
+    text-align: center;
 }
 
 button {
