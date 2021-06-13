@@ -1,0 +1,81 @@
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background: black;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    height: 15vh;
+}
+
+h1{
+    font-size: 40px;
+    color: lightgray;
+}
+
+.calc {
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.calc > div> button{
+    width: 60px;
+    height:60px;
+    border-radius: 2rem;
+    border: none;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+button {
+    background-color: dimgray;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.operations{
+    background-color:orange;
+    color: whitesmoke;
+}
+
+.func {
+    background-color: whitesmoke;
+    color: dimgray;
+}
+
+.double-width {
+    width: 135px !important;
+}
+
+.output {
+    color: whitesmoke;
+    font-size: 4rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 1.5rem;
+}
